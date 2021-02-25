@@ -1,40 +1,48 @@
 .noticias{
 	padding-top: 3.8em;
 }
-
-
+.wrapper {
+  display: grid;
+  grid-template-columns: 100%; /*Alterar resolucao */
+  grid-gap:15px;
+}
+.box {
+    vertical-align: bottom;
+}
 .titulo_Noticia{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	padding-top: .8em; 
 	font-size: 1.1em;
 }
-
 .subtitulo_Noticia{
 	font-family: 'Open Sans', sans-serif;
 	color: #BEBEBE; 
 	font-size: 0.8em;
 }
-
 .info_Noticia{
 	font-family: 'Open Sans', sans-serif;
 	padding-top: 1em; 
 	font-size: 0.8em;
 }
-
 .read_More{
 	font-family: 'Open Sans', sans-serif;
 	padding-top: 0.5em; 
 	font-size: 0.8em;
 	color: #32CD32;
 	padding-bottom: 3em;
-
 }
-
 .img_News{
 	max-width:100%;
     max-height:700px;
     width: auto;
     height: auto;
-  
+}
+
+@media(min-width:740px){
+	.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%; /*Alterar resolucao */
+  grid-gap:15px;
+}
 }
