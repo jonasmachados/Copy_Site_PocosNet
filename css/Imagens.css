@@ -24,3 +24,11 @@
     height: 310px;
 }
 }
+
+@media(min-width: 1020px) {
+    .img_ContrateAqui{
+    padding-top: 4em;
+    width:100%;
+    height: 400px;   
+}
+}
