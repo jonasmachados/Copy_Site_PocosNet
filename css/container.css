@@ -7,15 +7,9 @@
 	letter-spacing: 0.2px
 	}
 	
-@media (min-width: 1066px) {
+@media (min-width: 1050px) {
 .container	{
-	padding-left: calc((100% - 960px) / 2);
-	padding-right: calc((100% -	960px) / 2);
-	}
+	padding-left: 10%;
+	padding-right: 10%;
 	}
 	
-@media (min-width: 1440px){
-.container {
-	padding-left: calc((100% - 1200px) / 2);
-	padding-right: calc((100% -	1200px)	/ 2);
-	}
