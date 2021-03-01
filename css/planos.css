@@ -1,3 +1,7 @@
+.planos{
+	display: grid;
+	grid-row-gap: 1em;
+} 
 .plano_internet{
 	background-color: rgb(238 0 0);
 	color: #FFFFFF;
@@ -6,6 +10,78 @@
 	padding-top: .6em;
 	padding-bottom: .6em;
 	padding-left: 0.5em;
-	
 }
 
+.wrapperPlano{
+		display: flex;
+		justify-content: center;
+}
+table{
+	    width: 20em;
+	    border-radius: 10px;
+	    box-shadow: 1px 1px 10px 1px #D3D3D3;
+}
+td{
+	border-bottom: .1px solid #D3D3D3;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	text-align: center;
+}
+.thTitulo{
+	background-color: rgb(238 0 0);
+	text-align: center;
+	height: 7em;
+}
+.h2Plano{
+	color: #FFFFFF; 
+	font-size: 2em;
+	padding-top: 1.4em;
+}
+.img_checkList{
+	padding-right: .5em; 
+}
+.pInfoPlano{
+	color: #FFFFFF; 
+	padding-top: .5em;
+	font-size: .8em;
+}
+.pPreco{
+	font-size: 2em;
+	text-align: center;
+}
+.pRs{
+	color: #D3D3D3;
+	font-size: 1em;
+	padding-top:2.6em;
+	padding-right: 7em;
+
+}
+.pMes{
+	color: #D3D3D3;
+	font-size: 1em;
+	text-align: center;
+	padding-top: .5em;
+	padding-bottom: 2em;
+}
+.pBotaoContratar{
+	color: #FFFFFF; 
+	font-size: 1em;
+	background-color: rgb(238 0 0);
+	text-align: center;
+	border-radius: 3px;
+	width: 6em;
+	height: 1.7em;
+	padding-top: .5em;
+	margin-left:35%; 
+}
+
+
+
+	
+
+	
+	
+	
+	
+	
+	
