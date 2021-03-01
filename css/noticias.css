@@ -207,7 +207,7 @@
 @media(min-width:1050px){
 	.noticias{
 		display: grid;
-    	grid-template-columns: 30% 30% 30%;
+    	grid-template-columns: 35% 30% 30%;
 }
 	.A{
    		grid-column-start: 1;
@@ -216,7 +216,7 @@
    		grid-row-end: 6;
    		background-image: url(../img/Img_Noticias1.png);
 		background-size: 850px;
-		width:19em;
+		width:90%;
    		max-height: 20em;
 }
 	.B{
