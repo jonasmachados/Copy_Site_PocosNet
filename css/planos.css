@@ -100,8 +100,8 @@ td{
 @media(min-width:1050px){
 	.tabelaplanos{
 		display: grid;
-    	grid-template-columns: 12% 12% 12% 12% 12% 12%;
-    	grid-column-gap: 3em;
+    	grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    	grid-column-gap: 1em;
 }
 	.pl1{
    		grid-column-start: 1;
