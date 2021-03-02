@@ -15,15 +15,14 @@
 	padding-bottom: .6em;
 	padding-left: 0.5em;
 }
-
 .wrapperPlano{
-		display: flex;
-		justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 table{
-	    width: 20em;
-	    border-radius: 10px;
-	    box-shadow: 1px 1px 10px 1px #D3D3D3;
+	width: 20em;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px 1px #D3D3D3;
 }
 td{
 	border-bottom: .1px solid #D3D3D3;
