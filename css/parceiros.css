@@ -1,0 +1,25 @@
+.parceiros{
+	background-color: rgb(28 28 28);
+	height: 14em;
+	width: 100%;
+}
+.bannerParceiros{
+	display: grid;
+	grid-row-gap: 2.8em;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.pParceiros{
+	color: #FFFFFF;
+	font-size: .8em;
+	text-align: center;
+	padding-top: 1em;
+}
+.imgPropaganda{
+	padding-top: 1em;
+}
+.imgBanner{
+    max-width:100%;
+    max-height:700px;
+    height: auto;
+}

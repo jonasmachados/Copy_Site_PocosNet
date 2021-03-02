@@ -5,6 +5,7 @@
 .tabelaplanos{
 	display: grid;
 	grid-gap: 1.5em;
+	padding-bottom: 4em;
 }
 .plano_internet{
 	background-color: rgb(238 0 0);
