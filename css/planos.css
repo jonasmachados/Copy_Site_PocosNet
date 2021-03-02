@@ -2,6 +2,10 @@
 	display: grid;
 	grid-row-gap: 1em;
 } 
+.tabelaplanos{
+	display: grid;
+	grid-gap: 1.5em;
+}
 .plano_internet{
 	background-color: rgb(238 0 0);
 	color: #FFFFFF;
@@ -49,7 +53,19 @@ td{
 	font-size: 2em;
 	text-align: center;
 }
+.pPreco1{
+	font-size: 2em;
+	text-align: center;
+}
 .pRs{
+	color: #D3D3D3;
+	font-size: 1em;
+	padding-top:2.6em;
+	padding-right: 7em;
+
+}
+.pRs1
+{
 	color: #D3D3D3;
 	font-size: 1em;
 	padding-top:2.6em;
@@ -61,7 +77,14 @@ td{
 	font-size: 1em;
 	text-align: center;
 	padding-top: .5em;
-	padding-bottom: 2em;
+	padding-bottom: 4em;
+}
+.pMes1{
+	color: #D3D3D3;
+	font-size: 1em;
+	text-align: center;
+	padding-top: .5em;
+	padding-bottom: 4em;
 }
 .pBotaoContratar{
 	color: #FFFFFF; 
@@ -75,6 +98,83 @@ td{
 	margin-left:35%; 
 }
 
+@media(min-width:1050px){
+	.tabelaplanos{
+		display: grid;
+    	grid-template-columns: 12% 12% 12% 12% 12% 12%;
+    	grid-column-gap: 3em;
+}
+	.pl1{
+   		grid-column-start: 1;
+   		grid-column-end: 1;
+   		grid-row-start: 1;
+   		grid-row-end: 1;
+}
+	.pl2{
+   		grid-column-start: 2;
+   		grid-column-end: 2;
+   		grid-row-start: 1;
+   		grid-row-end: 1;
+}
+	.pl3{
+   		grid-column-start: 3;
+   		grid-column-end: 3;
+   		grid-row-start: 1;
+   		grid-row-end: 1;
+}
+	.pl4{
+   		grid-column-start: 4;
+   		grid-column-end: 4;
+   		grid-row-start: 1;
+   		grid-row-end: 1;
+	}
+	.pl5{
+   		grid-column-start: 5;
+   		grid-column-end: 5;
+   		grid-row-start: 1;
+   		grid-row-end: 1;
+}
+	.pl6{
+   		grid-column-start: 6;
+   		grid-column-end: 6;
+   		grid-row-start: 1;
+   		grid-row-end: 1;
+}
+table{
+	    width: 7em;
+	    border-radius: 10px;
+	    box-shadow: 1px 1px 10px 1px #D3D3D3;
+}
+.thTitulo{
+	background-color: rgb(238 0 0);
+	text-align: center;
+	height: 9em;
+}
+.h2Plano{
+	font-size: 2em;
+	line-height:1em;
+	padding-top: 1.4em;
+}
+.pInfoPlano{
+	padding-top: .2em;
+	padding-bottom: 2em;
+}
+.pMes1{
+	padding-bottom: 4em;
+}
+.pRs1{
+	padding-top: 4.75em;
+}
+.pPreco1{
+	padding-bottom: 0;
+}
+.pBotaoContratar{
+	width: 6em;
+	height: 1.7em;
+	padding-top: .5em;
+	margin-left:15%; 
+}
+}
 
 
 	
