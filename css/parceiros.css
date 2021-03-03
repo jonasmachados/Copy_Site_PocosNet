@@ -1,9 +1,7 @@
 .parceiros{
 	background-color: rgb(28 28 28);
-	display: grid;
-	
+	display: grid;	
 }
-
 .pParceiros{
 	color: #FFFFFF;
 	font-size: .8em;
@@ -26,7 +24,7 @@
 	.parceiros{
 		display: grid;
     	grid-template-columns: 50% 50%;
-    	
+    	grid-column-gap: 1em;
 }
 	.BoxP1{
    		grid-column-start: 1;
@@ -45,5 +43,14 @@
    		grid-column-end: 2;
    		grid-row-start: 2;
    		grid-row-end: 2;
+}
+	.pParceiros{
+		padding-right: 85%;
+}
+	.imgPropaganda{
+		padding-top: 1em;
+}
+	.imgPropagand2{
+		padding-top: 1em;
 }
 }
