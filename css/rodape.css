@@ -19,3 +19,25 @@
 	width: 20px;
 	padding-right: 2em;
 }
+iframe{
+	width:8.2em;
+	height: 20em;
+	border-style: 0;
+	padding-left: 1.5em;
+	padding-top: 3.5em;
+}
+.img_Facebook{
+	padding-top: 4em;
+	padding-left: 1.5em;
+	padding-bottom: 12em;
+}
+.dev{
+	background-color: #8B8989;	
+	height: 4em;
+	text-align: center;
+	padding-top: .7em;
+	color: #696969;
+	font-size: 0.8em;
+}
+
+
