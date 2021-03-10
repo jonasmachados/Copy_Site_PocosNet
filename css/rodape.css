@@ -7,7 +7,8 @@
 .logoPocosNet{
 	display: block;
     margin-left: auto;
-    margin-right: auto  
+    margin-right: auto ;
+    padding-top: 3.5em; 
 }
 .uRodape{
 	color: #FFFFFF;
@@ -39,5 +40,60 @@ iframe{
 	color: #696969;
 	font-size: 0.8em;
 }
+.boxf5{
+	background-color: #4F4F4F;
+	color: #8B8989;
+	height: 3.8em;
+	width: 100%;
+	text-align: center;
+	padding-top: 0.8em;
+	font-size: 1em;
+}
+
+@media(min-width:900px){
+	.rodape{
+		display: grid;
+    	grid-template-columns: 33% 33% 10%;
+}
+	.boxf1{
+		grid-column-start: 1;
+   		grid-column-end: 1;
+   		grid-row-start: 1;
+   		grid-row-end: 1;
+   		padding-top: 4em;
+	}
+	.boxf2{
+		grid-column-start: 1;
+   		grid-column-end: 1;
+   		grid-row-start: 2;
+   		grid-row-end: 2;
+	}
+	.boxf3{
+		grid-column-start: 2;
+   		grid-column-end: 2;
+   		grid-row-start: 1;
+   		grid-row-end: 1;
+	}
+	.boxf4{
+		grid-column-start: 4;
+   		grid-column-end: 4;
+   		grid-row-start: 1;
+   		grid-row-end: 1;
+	}
+	.boxf5{
+		grid-column-start: 1;
+   		grid-column-end: 3;
+   		grid-row-start: 3;
+   		grid-row-end: 3;
+	}
+	iframe{
+	width:100%;
+	height: 20em;
+	border-style: 0;
+	padding-top: 3.5em;
+	}
+	.img_Facebook{
+	padding-top: 4em;
+}	
 
 
