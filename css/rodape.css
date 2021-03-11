@@ -102,6 +102,12 @@ iframe{
 	.uRodape{
 	line-height: 4em;
 	}
+}
+
+@media(min-width:1100px){
+	.boxf4{
+		width:90%; 
+	}
 }	
 
 
