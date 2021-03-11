@@ -1,6 +1,7 @@
 .parceiros{
 	background-color: rgb(28 28 28);
-	display: grid;	
+	display: grid;
+	padding-bottom: .5em;	
 }
 .pParceiros{
 	color: #FFFFFF;
@@ -11,7 +12,7 @@
 .imgPropaganda{
 	padding-top: 1em;
 }
-.imgPropagand2{
+.imgPropaganda2{
 	padding-top: 3em;
 }
 .imgBanner{
@@ -50,7 +51,7 @@
 	.imgPropaganda{
 		padding-top: 1em;
 }
-	.imgPropagand2{
+	.imgPropaganda2{
 		padding-top: 1em;
 }
 }
