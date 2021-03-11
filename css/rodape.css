@@ -51,7 +51,7 @@ iframe{
 }
 
 @media(min-width:760px){
-	.boxf5{
+	.footerInfo{
 	height: 2em;
 	width: 100%;
 	padding-top: 0.8em;
