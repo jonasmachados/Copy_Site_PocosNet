@@ -1,0 +1,20 @@
+.lista{
+	background-color: #191970;
+	width: 100%;
+	height: 4em;
+
+}
+.quemSomos{
+	color: #000000;
+	line-height: 1.6em;
+}
+h1{
+	font-size: 2em;
+	padding-top: 1em; 
+	padding-bottom: 1em;
+}
+
+p{
+	font-size: .8em; 
+	padding-top: 1em;
+}
