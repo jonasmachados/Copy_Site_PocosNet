@@ -88,9 +88,38 @@ input{
 		padding-bottom: 10.5em;
 	}
 	.imgLogoEmail{
-	
     padding-left: 110%;
     padding-top: 2em;
+	}
+}
+
+@media(min-width: 800px) {
+	.imgLogoEmail{
+    padding-left: 120%;
+	}
+}
+
+@media(min-width: 900px) {
+	.imgLogoEmail{
+    padding-left: 130%;
+	}
+}
+
+@media(min-width: 1000px) {
+	.imgLogoEmail{
+    padding-left: 150%;
+	}
+}
+
+@media(min-width: 1100px) {
+	.imgLogoEmail{
+    padding-left: 170%;
+	}
+}
+
+@media(min-width: 1200px) {
+	.imgLogoEmail{
+    padding-left: 200%;
 	}
 }
 
