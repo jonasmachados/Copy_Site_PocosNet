@@ -30,7 +30,7 @@
 	border-color: #ADD8E6;
 }
 .tableEmail{
-	padding-top: 3em;
+	padding-top: 2.8em;
 	font-size: .8em;
 	padding-left: 3.5em;
 	}
@@ -60,11 +60,38 @@ input{
 	padding-top: .5em;
 	padding-bottom: .5em;
 }
+.imgLogoPocosNet{
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
 .imgLogoEmail{
 	width:100px;
     max-height:50px;
     padding-left: 80%;
     padding-top: 2em;
+}
+
+@media(min-width: 740px) {
+	.email{
+		padding-top: 3em;
+	}
+	.dialogForm{
+		position: absolute;
+  		left: 25%;
+  		right: -50%
+    }
+    .imgLogoPocosNet{
+		opacity: 1;
+		width: 300px;
+		height: 100px;
+		padding-bottom: 10.5em;
+	}
+	.imgLogoEmail{
+	
+    padding-left: 110%;
+    padding-top: 2em;
+	}
 }
 
 
