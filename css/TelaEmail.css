@@ -14,8 +14,7 @@
 	border-width: .1em;
 	border-style: solid;
 	border-color: #ADD8E6;
-	background-color: #E0FFFF;
-	
+	background-color: #E0FFFF;	
 }
 
 .h1Info{
@@ -72,6 +71,12 @@ input{
     padding-top: 2em;
 }
 
+@media(min-width: 600px) {
+	.imgLogoEmail{
+    padding-left: 100%;
+	}
+}
+
 @media(min-width: 740px) {
 	.email{
 		padding-top: 3em;
@@ -88,7 +93,7 @@ input{
 		padding-bottom: 10.5em;
 	}
 	.imgLogoEmail{
-    padding-left: 110%;
+    padding-left: 100%;
     padding-top: 2em;
 	}
 }
@@ -119,7 +124,13 @@ input{
 
 @media(min-width: 1200px) {
 	.imgLogoEmail{
-    padding-left: 200%;
+    padding-left: 190%;
+	}
+}
+
+@media(min-width: 1300px) {
+	.imgLogoEmail{
+    padding-left: 210%;
 	}
 }
 
