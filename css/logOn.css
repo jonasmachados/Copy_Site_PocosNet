@@ -9,7 +9,7 @@
 	padding-bottom: 3em;
 }
 .dialogLogOn{
-	margin-left: 5em;
+	margin-left: 25%;
 	height: 18.5em;
 	width: 18em;
 	background-color: #FFFFFF;
@@ -62,4 +62,35 @@ input{
 	text-align: center;
 	color: #FFFFFF;
 	padding-top: 10em;
+}
+.hrefLogOn{
+	opacity: 1;
+	width:0;
+	font-size: 0;
+
+}
+
+@media(min-width: 600px) {
+	.dialogLogOn{
+		margin-left: 40%;
+	}
+}
+
+@media(min-width: 700px) {
+	.dialogLogOn{
+		margin-left: 40%;
+	}
+}
+
+
+@media(min-width: 800px) {
+	.hrefLogOn{
+	opacity: 1;
+	font-size: 1em;
+	color: #FFFFFF;
+	margin-left: 90%; 
+	width:4em;
+	height: 0;
+	}
+
 }
