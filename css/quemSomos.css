@@ -18,3 +18,9 @@ p{
 	font-size: .8em; 
 	padding-top: 1em;
 }
+
+@media(max-width:740px){
+	h1{
+	padding-top: 3em; 
+	}
+}
