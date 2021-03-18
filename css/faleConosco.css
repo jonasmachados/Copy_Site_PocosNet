@@ -40,8 +40,8 @@
 .buttonEnviar{
 	border: none;
     padding-top: .8em;
-    margin-left: 14.5em;
-    margin-bottom: 1em;
+    margin-left: 30%;
+    margin-bottom: 3em;
     text-decoration: none;
     cursor: pointer;
     transition: background .3s;
@@ -61,4 +61,51 @@
 .buttonEnviar-success:hover {
     background-color: var(--cor-hover-success);
      color: #696969;
+}
+
+@media(min-width:780px){
+	.wrapperFaleConosco{
+		display: grid;
+    	grid-template-columns: 50% 50%;
+		grid-column-gap: 1em;
+	}
+	.txtFale1{
+		grid-column-start: 1;
+   		grid-column-end: 1;
+   		grid-row-start: 1;
+   		grid-row-end: 1;
+	}
+	.txtFale2{
+		grid-column-start: 2;
+   		grid-column-end: 2;
+   		grid-row-start: 1;
+   		grid-row-end: 1;
+	}
+	.txtFale3{
+		grid-column-start: 1;
+   		grid-column-end: 1;
+   		grid-row-start: 2;
+   		grid-row-end: 2;
+	}
+	.txtFale4{
+		grid-column-start: 2;
+   		grid-column-end: 2;
+   		grid-row-start: 2;
+   		grid-row-end: 2;
+	}
+	.txtFale5{
+		grid-column-start: 1;
+   		grid-column-end: 2;
+   		grid-row-start: 3;
+   		grid-row-end: 3;
+	}
+	.inputFale{
+		width: 90%;
+	}	
+	.inputFaleMensagem{
+		width: 195%;
+	}
+	.buttonEnviar{
+		margin-left: 70%;
+	}
 }
