@@ -7,9 +7,7 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/cabecalho.css">
 		<link rel="stylesheet" href="css/container.css">
-		<link rel="stylesheet" href="css/Imagens.css">
-		<link rel="stylesheet" href="css/noticias.css">
-		<link rel="stylesheet" href="css/planos.css">
+        <link rel="stylesheet" href="css/faleConosco.css">
 		<link rel="stylesheet" href="css/parceiros.css">
         <link rel="stylesheet" href="css/contato.css">
         <link rel="stylesheet" href="css/rodape.css">
@@ -17,6 +15,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 		<script src="js/slideParceiros.js"></script>
         <script src="js/slideParceiros2.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body>
 		<header	class="cabecalho">
@@ -41,7 +40,39 @@
 
 		<main>
 
-            <br><br><br><br><br><br><br>
+            <article class="container">
+                <h1 class="h1FaleConosco">FALE CONOSCO</h1>
+                <h2 class="h2FaleConosco">Preencha o fomulário abaixo. Teremos prazer em respondê-lo!</h2>
+                <section class="wrapperFaleConosco">
+                    <div class="boxFale txtFale1">
+                        <label class="labelFale"><b>Nome</b></label>
+                        <input class="inputFale" type="text">
+                    </div>
+
+                    <div class="boxFale txtFale2">
+                        <label class="labelFale"><b>E-mail</b></label>
+                        <input class="inputFale" type="text">
+                    </div>
+
+                    <div class="boxFale txtFale3">
+                        <label class="labelFale"><b>Assunto</b></label>
+                        <input class="inputFale" type="text">
+                    </div>
+
+                    <div class="boxFale txtFale4">
+                        <label class="labelFale"><b>Telefone</b></label>
+                        <input class="inputFale" type="text">
+                    </div>
+
+                    <div class="boxFale txtFale5">
+                        <label class="labelFale"><b>Mensagem</b></label>
+                        <input class="inputFaleMensagem" type="text">
+                    </div>
+                </section>
+
+                <div class="buttonEnviar buttonEnviar-success">Enviar Mensagem</div>
+            </article>
+            
 			<section class="parceiros container">
                 <article class="boxParceiro BoxP1">
                     <p class="pParceiros">Parceiros</p>

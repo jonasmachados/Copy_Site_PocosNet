@@ -1,0 +1,64 @@
+.h1FaleConosco{
+	padding-top: 11em;
+	text-align: center;
+	font-size: .8em;
+	color: #696969;
+}
+.h2FaleConosco{
+	padding-top: 1em;
+	text-align: center;
+	font-size: .8em;
+	color: #696969;
+}
+.wrapperFaleConosco{
+	padding-top: 2em;
+	font-size: .8em;
+	color: #696969;
+}
+.labelFale{
+	font-size: 1em;
+	color: #696969;
+}
+.inputFale{
+	width: 32.5em;
+	height: 2.5em;
+	color: #696969;
+}
+.inputFaleMensagem{
+	width: 32.5em;
+	height: 7em;
+	color: #696969;
+}
+.boxFale{
+	padding-top: 1.3em;
+	padding-bottom: 1em;
+}
+:root {
+    --cor-primaria-success: #191970;
+    --cor-hover-success: #FFFFFF;
+}
+.buttonEnviar{
+	border: none;
+    padding-top: .8em;
+    margin-left: 14.5em;
+    margin-bottom: 1em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 0;
+    width: 13em;
+    height: 1.5em;
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold
+}
+.buttonEnviar-success {
+    background-color: var(--cor-primaria-success);
+    outline: none;
+    color: #FFFFFF;
+}
+
+.buttonEnviar-success:hover {
+    background-color: var(--cor-hover-success);
+     color: #696969;
+}
