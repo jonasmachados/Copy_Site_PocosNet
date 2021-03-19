@@ -1,7 +1,12 @@
 .imgNews{
-	padding-top: 8em;
-	width: 27.2em;
-	max-height: 25em;
+	width: 100%;
+	height: 100%;
+ }
+ .divimgNews{
+ 	margin-top: 8em;
+ 	margin-bottom: 3em;
+ 	width: 90%;
+ 	height: 25em;
  }
 .h1News{
 	padding-top:1em;
@@ -43,13 +48,22 @@
 	padding-bottom: 1.5em;
 	color: #6495ED;
 }
-
-.imgBannerNews{
+.wrapperImgPropagandaNews{
+	display: grid;
+	grid-template-columns:100%;
+    grid-row-gap: .1em;
+}
+.boxImgNews{
 	padding-left: 4%;
 	padding-right: 4%;
-	width: 27.5em;
-	height: 20em;
-	padding-bottom: 1em;
+ 	padding-bottom: 1em;
+ 	padding-top: 2em;
+ 	width: 90%;
+ 	
+}
+.imgBannerNews{
+	width: 100%;
+	height: 100%;
 }
 
 	
