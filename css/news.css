@@ -23,7 +23,12 @@
 	color: #000000;
 	padding-bottom: 1em;
 }
-
+.pFonte{
+	font-size: 1em;
+	font-family: 'Poppins', sans-serif;
+	color: #000000;
+	padding-top: 1em;
+}
 .newsLembrete{
 	background-color: #C1CDCD;
 	margin-left: 5%;
